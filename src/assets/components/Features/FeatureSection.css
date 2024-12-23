@@ -1,0 +1,38 @@
+
+.carousel {
+    animation: scroll 20s linear infinite; /* Tempo total da animação */
+}
+
+#btn {
+    cursor: pointer; font-family: "system-ui"; font-size: 20px; color: rgb(255, 255, 255); padding: 10px 30px; transition: 2s; width: 300px; box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px; border-radius: 50px; background: linear-gradient(90deg, rgb(3, 38, 74) 0%, rgb(98, 20, 102) 100%); --hover-bgc: #3440b3; --hover-color: #2534a6; --hover-borderc: #ffffff;
+}
+
+
+#btn:hover{
+    
+color: white;
+width: 300px;
+background: linear-gradient(90deg, rgb(16 69 123) 0%, rgb(60 7 63) 100%), none repeat scroll 0% 0% / auto padding-box border-box;
+
+}
+
+.test {
+    border: 1px solid red;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-calc(160px * 9)); /* Calcule a largura total do carrossel */
+    }
+}
+
+.overflow-hidden {
+    overflow: hidden; /* Esconde o overflow do carrossel */
+}
+
+.flex-shrink-0 {
+    flex-shrink: 0; /* Impede que os itens encolham */
+}
