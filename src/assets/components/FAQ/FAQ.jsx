@@ -36,7 +36,7 @@ const FAQSection = () => {
     >
        <div className="absolute inset-0 bg-black opacity-20"></div>
       <div className="relative text-justify z-10 max-w-[65rem] mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-customBlue">Perguntas Frequentes</h2>
+        <h2 className="text-3xl font-bold text-center text-white">Perguntas Frequentes</h2>
         <div className="mt-8">
           {faqs.map((faq, index) => (
             <div key={index} className="faq-item text-white text-[20px] border faq-border mb-[20px]">
