@@ -188,6 +188,9 @@
   .firstSection p {
     padding-right: 0;
   }
+  .rightSectionPromotion {
+    width: 60%;
+  }
 } 
 
 @media (max-width: 640px) {
@@ -349,6 +352,10 @@
   .firstSection h1,
   .firstSection p {
     padding-right: 450px;
+  }
+
+  .rightSectionPromotion {
+    width: 60%;
   }
 }
 
