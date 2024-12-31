@@ -25,9 +25,9 @@ const ServiceData = [
 function Cards({ onButtonClick }) {
   return (
     <>
-      <section className="relative text-center pt-10 pb-20 px-4 bg-cover bg-center">
-        <div className="pb-6 ">
-          <div className="relative z-10 max-w-[65rem] mx-auto">
+      <section className="relative text-center pt-10 pb-8 px-4 bg-cover bg-center">
+        <div className="pb-8 ">
+          <div className="relative z-10 max-w-[65rem] mb-8 mx-auto">
           <h1 className="uppercase text-center text-3xl md:text-4xl font-bold mb-16 mt-[30px]">
           Lorem ipsum <span className="text-customBlue font-semibold">dolor sit amet</span>
           </h1>
@@ -47,15 +47,7 @@ function Cards({ onButtonClick }) {
                 })}
               </div>
             </div>
-            <div className="flex mt-[5rem] justify-center">
-            <button
-              id="btn1"
-              onClick={onButtonClick}
-              className="uppercase text-white font-bold py-2 px-4 shadow-md transition"
-            >
-              ADQUIRIR AGORA
-            </button>
-          </div>
+          
           </div>
         </div>
       </section>

@@ -30,29 +30,28 @@ function App() {
 
   }, []);
 
-  const openForm = () => setIsFormOpen(true);
-  const closeForm = () => setIsFormOpen(false);
+ {/* const openForm = () => setIsFormOpen(true);
+  const closeForm = () => setIsFormOpen(false);*/}
 
   return (
     <div className="exo bg-black text-white font-sans">
 
-      <HeroSection onButtonClick={openForm} />
+      <HeroSection />
       <SecondSection />
       <Fios />
       <ImageSection />
+      <DepoimentosSection />
+      <AboutSection />
       <Cards />
       {/*<FeatureSection />*/}
       {/*<StatsSection />*/}
-      <AboutSection />
-      <DepoimentosSection />
       <PromotionSection />
       <FAQ />
       <Footer />
 
-      {isFormOpen && (
+     {/* {isFormOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
           <div className="formApp relative w-full max-w-md p-6 bg-[#1e1e1e] rounded-lg border border-customBlueBorder">
-            {/* Botão para fechar */}
             <button
               onClick={closeForm}
               className="absolute top-2 right-2 text-white text-2xl font-bold hover:text-gray-300"
@@ -63,7 +62,7 @@ function App() {
             <Form />
           </div>
         </div>
-      )}
+      )} */}
 
     </div>
   );

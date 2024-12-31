@@ -183,6 +183,13 @@
   max-width: 500px;
 }
 
+@media (min-width: 660px) and (max-width: 960px) {
+  .firstSection h1,
+  .firstSection p {
+    padding-right: 0;
+  }
+} 
+
 @media (max-width: 640px) {
   .bg-black {
     margin: 0;
@@ -194,7 +201,7 @@
   }
 
   .firstSection h1 {
-    font-size: 20px;
+    font-size: 23px;
     text-align: justify;
     line-height: 1.75rem;
   }
@@ -266,7 +273,7 @@
 
 
   .containerSecond h1 {
-    font-size: 25px;
+    font-size: 27px;
     line-height: none;
   }
 
@@ -280,7 +287,7 @@
   }
 
   .containerAboutSection h1 {
-    font-size: 25px;
+    font-size: 27px;
   }
 
   .containerAboutSection h5,
@@ -294,7 +301,7 @@
   }
 
   .containerDepoimentos h2 {
-    font-size: 25px;
+    font-size: 27px;
   }
 
   .containerDepoimentos p {
@@ -306,7 +313,7 @@
   }
 
   .featureList {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 100px;
   }
 
@@ -338,11 +345,18 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 970px) and (max-width: 1024px) {
   .firstSection h1,
   .firstSection p {
-    padding-right: 0;
+    padding-right: 450px;
+  }
+}
+
+@media (max-width: 960px) {
+  
+
+  .blurDiv {
+    width: 100%;
   }
 
- 
 }

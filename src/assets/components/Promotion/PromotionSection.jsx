@@ -5,12 +5,12 @@ import "../../../index.css";
 
 function PromotionSection() {
     return (
-        <section className="relative text-center pt-10 pb-20 px-4 bg-cover bg-center">
+        <section className="relative text-center pt-2 pb-20 px-4 bg-cover bg-center">
             <div className="bg-black text-gray-200 flex justify-center items-center p-6">
                 <div className="flex flex-col lg:flex-row lg:space-x-8 items-center lg:items-start mb-16 max-w-[65rem] mx-auto w-full lg:flex-nowrap">
                     
                     {/* Left Section */}
-                    <div className="flex-grow lg:flex-grow-0 lg:basis-1/3 flex flex-col justify-center p-4 mt-[100px]">
+                    <div className="flex-grow lg:flex-grow-0 lg:basis-1/3 flex flex-col justify-center p-4 mt-[60px]">
                         <div className="flex justify-end items-center mb-[50px]">
                             <div className="bg-customBlueBorder w-12 h-12 flex items-center justify-center rounded-md">
                                 <span className="text-white font-bold text-lg"> <GiChessKing className="text-[25px] leading-[1.75rem] text-white" /></span>
@@ -36,7 +36,7 @@ function PromotionSection() {
                             QUERO ADQUIRIR
                         </button>
                         <hr class="m-auto w-[95%] mb-[30px]"></hr>
-                        <p className="text-gray-400 text-[15px] leading-[20px] text-justify mb-[50px]">
+                        <p className="text-gray-400 text-[15px] leading-[20px] text-center mb-[50px]">
                             Compra 100% segura! Receba seu ebook imediatamente após a confirmação do pagamento.
                         </p>
                        {/* <div className="flex justify-center gap-2 mb-6">

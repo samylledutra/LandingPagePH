@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       backdropBlur: {
-        custom: '1px',
+        custom: '2px',
       },
       spacing: {
-        '51p': '50.05%',
+        '51p': '54%',
       },
       colors: {
         customBlue: '#00a3ff',
