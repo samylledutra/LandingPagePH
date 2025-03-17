@@ -1,18 +1,18 @@
 export const checklistItems = [
   {
-    title: "Lorem ipsum dolor",
+    title: "As Regras do Jogo",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et fermentum orci. In venenatis blandit diam, vel luctus ante efficitur vel. Curabitur auctor quam diam, at interdum velit lobortis non."
+      "Você aprende as regras que poucos conhecem, mas todos seguem. Quem as domina, manda. Quem as ignora, obedece."
   },
   {
-    title: "Lorem ipsum dolor",
+    title: "A Arte do Controle",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et fermentum orci. In venenatis blandit diam, vel luctus ante efficitur vel. Curabitur auctor quam diam, at interdum velit lobortis non."
+      "Emoções, percepções, relações. Tudo pode ser moldado a seu favor, desde que saiba como manipular os fios certos."
   },
   {
-    title: "Lorem ipsum dolor",
+    title: "Do Zero ao Poder",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et fermentum orci. In venenatis blandit diam, vel luctus ante efficitur vel. Curabitur auctor quam diam, at interdum velit lobortis non."
+      "Não importa sua posição atual. O que importa é saber jogar o tabuleiro certo. Aqui, você aprende como."
   },
 ];
 

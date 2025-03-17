@@ -8,27 +8,39 @@ const testimonials = [
   {
     icon: <FaUserSecret />,
     name: "Richard Santas",
-    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    text: "O dinheiro é uma ferramenta, não um fim. Quem o trata como o objetivo final, já perdeu o jogo.",
     rating: 5,
   },
   {
     icon: <FaUserSecret />,
     name: "Richard Santes",
-    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    text: "Iludir o inimigo é fazer com que ele dance ao som de uma música que ele acredita ter composto.",
     rating: 5,
   },
   {
     icon: <FaUserSecret />,
     name: "Richard Santis",
-    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    text: "Todo império ruirá, não pelas forças que o atacam diretamente, mas pelas rachaduras invisíveis que crescem em seu alicerce.",
     rating: 5,
   },
   {
     icon: <FaUserSecret />,
     name: "Richard Santos",
-    text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+    text: "Nada prende mais alguém do que a promessa de um amor que nunca é totalmente entregue.",
     rating: 5,
   },
+  {
+    icon: <FaUserSecret />,
+    name: "Richard Santos",
+    text: "O verdadeiro poder não se encontra na riqueza que possuímos, mas na incapacidade dos outros de viver sem nós.",
+    rating: 5,
+  }, 
+  {
+    icon: <FaUserSecret />,
+    name: "Richard Santos",
+    text: "A ilusão de controle é o veneno mais doce que um manipulador pode oferecer.",
+    rating: 5,
+  }
 ];
 
 function DepoimentosSection({ onButtonClick }) {
@@ -55,12 +67,12 @@ function DepoimentosSection({ onButtonClick }) {
   return (
     <section className="relative containerDepoimentos text-center pt-10 pb-20 px-4 bg-cover bg-center">
       <div className="relative z-10 max-w-[65rem] mx-auto px-4">
-        <h2 className="uppercase text-center text-3xl font-bold mb-6">
-          Lorem ipsum dolor sit amet, consectetur <br />
-          <span className="text-customBlue">dolor sit amet.</span>
+        <h2 className="uppercase text-center text-3xl font-bold mb-6 mt-6">
+          ISTO NÃO É APENAS UM LIVRO. É UMA ARMA CARREGADA COM O QUE NINGUÉM TEM <span className="text-customBlue">CORAGEM</span> DE DIZER <br />
+
         </h2>
         <p className="depoimentosJustify text-center text-lg mb-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et fermentum orci. In venenatis
+          A diferença entre os que dominam e os que são dominados está na verdade que conseguem suportar.
         </p>
         <Slider {...settings}>
           {testimonials.map((testimonial, index) => (
@@ -70,14 +82,14 @@ function DepoimentosSection({ onButtonClick }) {
                   <div className="text-4xl text-customBlue mr-3 ml-4">
                     {testimonial.icon}
                   </div>
-                 {/*} <div className="flex">
+                  {/*} <div className="flex">
                     {[...Array(testimonial.rating)].map((_, i) => (
                       <span key={i} className="text-yellow-400 text-xl mr-1">★</span>
                     ))}
                   </div>*/}
                 </div>
                 <p className="depoimentosJustify text-sm p-[15px]">{testimonial.text}</p>
-                <p className="testimonialName mb-2 text-[1.15rem] text-right">{testimonial.name}</p>
+                {/*<p className="testimonialName mb-2 text-[1.15rem] text-right">{testimonial.name}</p>*/}
               </div>
             </div>
           ))}

@@ -28,9 +28,9 @@ function PromotionSection() {
                     {/* Right Section */}
                     <div className="rightSectionPromotion rounded-lg p-6 flex-grow lg:flex-grow-0 basis-1/2 mt-[30px] border border-customBlue">
                        {/* <p className="firstP text-purple-500 text-xs font-semibold uppercase tracking-wider mb-2">Lorem ipsum dolor</p> */}
-                        <h2 className="firstH2Promotion text-white text-[29px] font-bold mb-2">Garanta seu Lorem! Os lorens são limitados</h2>
+                        <h2 className="firstH2Promotion text-white text-[29px] font-bold mb-2">Garanta seu Lorem! Os ebooks são limitados</h2>
                         <p className="promotion text-gray-500 line-through">De R$000,00 por apenas:</p>
-                        <p className="promotionValue text-white text-[40px] leading-[6rem] font-bold">R$ <span className="text-[80px]"> 000</span>,00 </p>
+                        <p className="promotionValue text-white text-[40px] leading-[6rem] font-bold">R$ <span className="text-[80px]"> 00</span>,00 </p>
                         <p className="promotionP text-gray-400 text-[20px] leading-[0.875rem] mb-[1.5rem]">ou em 12x R$00,00 no cartão.</p>
                         <button className="buttonPromotion w-[90%] bg-pink-500 py-3 rounded-md mb-6 font-bold text-lg text-white hover:bg-pink-600 transition">
                             QUERO ADQUIRIR
