@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from '../../imagens/banner-oficial.png';
+import BannerMobile from '../../imagens/banner_mobile.png';
 import "../../../index.css";
 
 function HeroSection({ onButtonClick }) {
@@ -22,6 +23,8 @@ function HeroSection({ onButtonClick }) {
           </button>
         </div>
       </div>
+
+      
     </section>
   );
 }

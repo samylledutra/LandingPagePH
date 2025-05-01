@@ -6,7 +6,7 @@ import "../../../index.css";
 function PromotionSection() {
     return (
         <section className="relative text-center pt-2 pb-20 px-4 bg-cover bg-center">
-            <div className="bg-black text-gray-200 flex justify-center items-center p-6">
+            <div className="promotionSection bg-black text-gray-200 flex justify-center items-center ">
                 <div className="flex flex-col lg:flex-row lg:space-x-8 items-center lg:items-start mb-16 max-w-[65rem] mx-auto w-full lg:flex-nowrap">
                     
                     {/* Left Section */}

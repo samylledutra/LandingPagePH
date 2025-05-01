@@ -67,10 +67,10 @@ function DepoimentosSection({ onButtonClick }) {
   return (
     <section className="relative containerDepoimentos text-center pt-10 pb-20 px-4 bg-cover bg-center">
       <div className="relative z-10 max-w-[65rem] mx-auto px-4">
-        <h2 className="uppercase text-center text-3xl font-bold mb-6 mt-6">
+        <h1 className="uppercase text-center text-3xl font-bold mb-6 mt-6">
           ISTO NÃO É APENAS UM LIVRO. É UMA ARMA CARREGADA COM O QUE NINGUÉM TEM <span className="text-customBlue">CORAGEM</span> DE DIZER <br />
 
-        </h2>
+        </h1>
         <p className="depoimentosJustify text-center text-lg mb-8">
           A diferença entre os que dominam e os que são dominados está na verdade que conseguem suportar.
         </p>
