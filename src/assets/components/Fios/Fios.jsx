@@ -16,7 +16,7 @@ const ServiceData = [
   {
     title: "Sexo",
     description:
-      "O sexo, além de proporcionar prazer, é a força mais intensa e manipuladora da vida. Ele domina, seduz e destrói. Na trajetória humana, ele deu origem a conflitos, pactos e traições. Entender como controlá-lo significa dominar o desejo alheio, convertendo fraquezas em armas. A segundo fio não se trata somente de conquistar, mas sim de dominar.",
+      "O sexo, além de proporcionar prazer, é a força mais intensa e manipuladora da vida. Ele domina, seduz e destrói. Na trajetória humana, ele deu origem a conflitos, pactos e traições. Entender como controlá-lo significa dominar o desejo alheio, convertendo fraquezas em armas. O segundo fio não se trata somente de conquistar, mas sim de dominar.",
     icon: <IoBed className="text-7xl" />,
     aosDelay: "500",
   },

@@ -34,7 +34,7 @@ const FAQSection = () => {
       className="relative text-center pt-10 pb-20 px-4 bg-cover bg-center"
       style={{ backgroundImage: `url(${FAQ})` }}
     >
-       <div className="absolute inset-0 bg-black opacity-30"></div>
+       <div className="absolute inset-0 bg-black opacity-60"></div>
       <div className="relative text-justify z-10 max-w-[65rem] mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-white">Perguntas Frequentes</h2>
         <div className="mt-8">
